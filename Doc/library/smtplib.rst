@@ -51,7 +51,7 @@ Protocol) and :rfc:`1869` (SMTP Service Extensions).
    :keyword:`!with` statement exits.  E.g.::
 
     >>> from smtplib import SMTP
-    >>> with SMTP("domain.org") as smtp:
+    >>> with SMTP("smtp.domain.org") as smtp:
     ...     smtp.noop()
     ...
     (250, b'Ok')
